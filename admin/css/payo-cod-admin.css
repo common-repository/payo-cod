@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,600");
+
+
+/* Config Page */
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+.input-group-text {
+    width: 80px;
+}
+
+@media (min-width: 1200px) {
+    .form-width {
+        width: 55%;
+    }
+}
+
+.note-label {
+    font-size: 14px;
+    margin: 0px 5px 5px 5px;
+}
+
+.note-legend {
+    width:inherit;
+    padding:0 5px;
+    border-bottom:none;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+/* Orders Page */
+
+.viewButton {
+    background-color: #EFC335!important;
+    white-space: nowrap;
+}
+.viewButton a {
+    text-decoration: none;
+    color: #212529;
+}
+.viewButton a:hover {
+    color: #212529;
+}
+.order-body {
+    line-height: 3;
+}
+.order-icons {
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.pagination-nav {
+    border: 1px solid #dee2e6;
+    padding: .375rem .75rem;
+    background-color: white;
+}
+
+.pagination-nav:hover {
+    background-color: #e9ecef;
+}
+
+.pagination-nav:disabled {
+    cursor: default!important;
+    background-color: white!important;
+}
+
+.pagination-nav-prev {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.pagination-nav-next {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.button-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-div-1 {
+    margin: auto;
+}
+
+.button-div-2 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.filter-table {
+    margin-bottom: 5px;
+    border: 1px solid #ced4da;
+    padding: 5px;
+}
+
+@media (min-width: 426px) {
+    .button-div {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .button-div-1 {
+        margin: unset;
+    }
+
+    .button-div-2 {
+        margin: unset;
+        flex-direction: row;
+    }
+
+    .filter-table {
+        margin-right: 20px;
+        margin-bottom: unset;
+    }
+}
+
+/* Modal */
+.modal-header {
+    background-color: #002850;
+}
+
+.modal-button {
+    background-color: #EFC335!important;
+}
